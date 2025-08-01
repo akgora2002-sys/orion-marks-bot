@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("8006374981:AAE0rR2MrQwqzu0l3bBvGuOQyeOoLh-6S6Q")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
